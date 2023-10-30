@@ -10,9 +10,9 @@ from geojson_rewind import rewind
 import json
 
 #carregando os dados
-df = pd.read_csv('data\df_pbf_cadunico_streamlit.csv')
-georreferenciamento_df = pd.read_csv('data\georreferenciamento_df.csv')
-with open('data/geojson', 'r') as geojson_file:
+df = pd.read_csv('df_pbf_cadunico_streamlit.csv')
+georreferenciamento_df = pd.read_csv('georreferenciamento_df.csv')
+with open('geojson', 'r') as geojson_file:
     geojson = json.load(geojson_file)
 
 
